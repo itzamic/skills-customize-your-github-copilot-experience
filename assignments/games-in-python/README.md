@@ -1,19 +1,57 @@
+```markdown
+# 📘 Assignment: Hangman Game
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objective
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+Build a playable Hangman word-guessing game to practice string manipulation, loops, conditionals, and user input/output in Python. Students will implement core game logic and optionally add enhancements.
 
-## � What You'll Build
+## 📝 Tasks
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+### 🛠️ Task 1 — Core Game
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+#### Description
+Implement the core Hangman game loop that lets a player guess letters to reveal a hidden word while tracking remaining attempts.
 
-## ✅ Must Have's
+#### Requirements
+Completed program should:
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+- Randomly select a secret word from a predefined list (or `words.txt` if available).
+- Prompt the player for single-letter guesses and validate input.
+- Display current progress using underscores and revealed letters (e.g. `_ a _ _ m a n`).
+- Track and display letters already guessed and remaining incorrect attempts.
+- End the game with a clear win or lose message and reveal the word.
+
+### 🛠️ Task 2 — Enhancements (Optional)
+
+#### Description
+Add extra features to improve gameplay and robustness.
+
+#### Requirements
+Completed program may include any of the following:
+
+- Difficulty levels that adjust allowed attempts.
+- Load words from an external file (`words.txt`) if present, falling back to a default list.
+- ASCII hangman drawing that progresses with each incorrect guess.
+- Replay support so the player can play multiple rounds without restarting the program.
+- Write simple unit tests for core functions (e.g. `reveal_letters`, `is_won`).
+
+## 📁 Starter Code
+
+Use the provided starter file `starter-code.py` in this assignment folder as a starting point.
+
+## ▶️ How to Run
+
+Run the game with Python 3:
+
+```bash
+python3 starter-code.py
+```
+
+## 📤 Submission
+
+Submit your working `starter-code.py` (renamed if you like) and any additional modules or test files. Include brief notes about any enhancements you added.
+
+---
+
+Good luck — have fun building Hangman! :rocket:
+```

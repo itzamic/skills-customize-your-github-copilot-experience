@@ -59,5 +59,13 @@
         }
       ]
     }
+    ,
+    {
+      "id": "building-rest-apis-with-fastapi-framework",
+      "title": "Building REST APIs with FastAPI framework",
+      "description": "Create a RESTful API using FastAPI to manage simple resources (CRUD, validation, and testing).",
+      "path": "assignments/building-rest-apis-with-fastapi-framework",
+      "dueDate": "2026-02-23"
+    }
   ]
 }
